@@ -21,7 +21,7 @@
 
 			<h1><span>Shop by gift type</span></h1>   <!-- Header -->
 
-			<div class="row">
+			<div class="row">	<!-- Grid -->
 
 			  	<div class="col-md-3">
 
@@ -68,9 +68,9 @@
 			  	</div>
 			</div>
 
+			<!-- buttons -->
 			<div class="left-button">
 				<button type="button" class="button-design" data-toggle="modal" data-target="#myModal">Spend $125 get $200 + free gifts</button>
-				<!-- <button class="button-design">Spend $125 get $200 + free gifts </button> -->
 			</div>
 
 			<div class="right-button">
@@ -85,11 +85,22 @@
 		    <div class="modal-content">
       			<div class="modal-header">
 			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			        <h4 class="modal-title" id="myModalLabel">Form</h4>
+			        <h4 class="modal-title" id="myModalLabel">Name Form</h4>
       			</div>
+
       		<div class="modal-body">
-       			 Form
+       			 <form>
+          			<div class="form-group">
+			            <label for="recipient-name" class="control-label">First Name:</label>
+			            <input type="text" class="form-control" id="recipient-name">
+          			</div>
+          			<div class="form-group">
+            			<label for="message-text" class="control-label">Last Name:</label>
+            			<input class="form-control" id="message-text"></input>
+          			</div>
+        		</form>
      		 </div>
+
       		<div class="modal-footer">
         		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         		<button type="button" class="btn btn-primary">Submit</button>
