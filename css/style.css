@@ -2,12 +2,12 @@
 @font-face {
   font-family: 'Open Sans';
   src: url('../fonts/us101-webfont.eot');
-  src: url('../fonts/abolition-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/abolition-regular-webfont.woff') format('woff'),
-       url('../fonts/abolition-regular-webfont.ttf') format('truetype');
+  src: url('../fonts/us101-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/us101-webfont.woff') format('woff'),
+       url('../fonts/us101-webfont.ttf') format('truetype');
 }
 
-/*main styles*/
+/*Main Styles*/
 
 /* ---Banner--- */
 .main-header {
@@ -15,8 +15,12 @@
   	margin-top: 50px;
   	margin-left: 30px;
   	margin-right: 30px;
-  	opacity: 0;	
+  	opacity: 0;
+  	width: auto;	
 }
+#banner-img{
+		width: 90%;
+	}
 /* End Banner*/
 
 .primary-content {
@@ -87,14 +91,14 @@ h3 {
   	margin-top: -8px;
 	padding: 0 15px;
 }
-/*toolkit styles*/
+/*---toolkit styles---*/
 .tool-one, .tool-two, .tool-three, .tool-four{
 	color: #989898;
 	font-size: 11px;
 	font-family: 'Open Sans'
 }
 
-
+/*---Button---*/
 .button-design {
 	background-color: #ffffff;
 	-moz-border-radius: 2px;
@@ -119,7 +123,7 @@ h3 {
 	padding-bottom: 75px;
 }
 
-/*Modal Styles*/
+/*---Modal Styles---*/
 #myModalLabel{
 	font-family: 'Open Sans';
 	color: #080000;
@@ -147,8 +151,8 @@ h3 {
 }
 
 
-/*Media Queries*/
-/*inlcude large mobile screens*/
+/*---Media Queries---*/
+/*inlcudes large mobile screens*/
 @media (max-width: 550px){
 	#banner-wrapper{
 		display: none;

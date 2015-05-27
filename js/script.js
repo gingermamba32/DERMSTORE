@@ -18,7 +18,7 @@
 			    $( this ).find( "span:last" ).remove();
 			  }
 			);
-			$( ".tool-one.two" ).hover(function() {
+			$( ".tool-two.fade" ).hover(function() {
 			  $( this ).fadeOut( 100 );
 			  $( this ).fadeIn( 500 );
 			});
