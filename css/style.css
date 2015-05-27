@@ -1,3 +1,12 @@
+/*Web Fonts*/
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/us101-webfont.eot');
+  src: url('../fonts/abolition-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/abolition-regular-webfont.woff') format('woff'),
+       url('../fonts/abolition-regular-webfont.ttf') format('truetype');
+}
+
 /*main styles*/
 
 /* ---Banner--- */
@@ -109,6 +118,35 @@ h3 {
 .button-bottom-padding {
 	padding-bottom: 75px;
 }
+
+/*Modal Styles*/
+#myModalLabel{
+	font-family: 'Open Sans';
+	color: #080000;
+	font-weight: 700;
+}
+.control-label{
+	float: left;
+	padding-left: 30px;
+	font-family: 'Open Sans';
+	color: #707070;
+	font-weight: 600;
+}
+
+.btn-primary{
+	background-color: #080000;
+}
+
+.btn-default{
+	background-color: #A0A0A0;
+}
+
+.btn-primary:hover{
+	color: #ffffff;
+	background-color: #505050;
+}
+
+
 /*Media Queries*/
 /*inlcude large mobile screens*/
 @media (max-width: 550px){
