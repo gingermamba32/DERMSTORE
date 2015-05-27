@@ -6,10 +6,7 @@
 			    $( this ).find( "span:last" ).remove();
 			  }
 			);
-			$( ".tool-one.fade" ).hover(function() {
-			  $( this ).fadeOut( 100 );
-			  $( this ).fadeIn( 500 );
-			});
+			
 			// tool-kit for product 2/4 **************
 			$( ".tool-two" ).hover(
 			  function() {
@@ -18,10 +15,7 @@
 			    $( this ).find( "span:last" ).remove();
 			  }
 			);
-			$( ".tool-two.fade" ).hover(function() {
-			  $( this ).fadeOut( 100 );
-			  $( this ).fadeIn( 500 );
-			});
+			
 			// tool-kit for product 3/4 *************
 			$( ".tool-three" ).hover(
 			  function() {
@@ -30,10 +24,7 @@
 			    $( this ).find( "span:last" ).remove();
 			  }
 			);
-			$( ".tool-three.fade" ).hover(function() {
-			  $( this ).fadeOut( 100 );
-			  $( this ).fadeIn( 500 );
-			});
+			
 			// toolkit for product 4/4 ***************
 			$( ".tool-four" ).hover(
 			  function() {
@@ -42,11 +33,6 @@
 			    $( this ).find( "span:last" ).remove();
 			  }
 			);
-			$( ".tool-four.fade" ).hover(function() {
-			  $( this ).fadeOut( 100 );
-			  $( this ).fadeIn( 500 );
-			});
-
 
 			// Slide-Up animation for the header ********
 			$(function() {
