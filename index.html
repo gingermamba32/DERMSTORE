@@ -69,14 +69,33 @@
 			</div>
 
 			<div class="left-button">
-				<a href="#" class="button-design">Spend $125 get $200 + free gifts</a>
+				<button type="button" class="button-design" data-toggle="modal" data-target="#myModal">Spend $125 get $200 + free gifts</button>
 				<!-- <button class="button-design">Spend $125 get $200 + free gifts </button> -->
 			</div>
 
 			<div class="right-button">
-				<a href="#" class="button-design">Shop all gift sets</a>
+				<button type="button" class="button-design" data-toggle="modal" data-target="#myModal">Shop all gift sets</button>
 			</div>
 
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  	<div class="modal-dialog">
+		    <div class="modal-content">
+      			<div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title" id="myModalLabel">Form</h4>
+      			</div>
+      		<div class="modal-body">
+       			 Form
+     		 </div>
+      		<div class="modal-footer">
+        		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        		<button type="button" class="btn btn-primary">Submit</button>
+		      </div>
+		    </div>
+		  </div>
 		</div>
 
 
