@@ -12,8 +12,6 @@
 		<header class="main-header" role="banner">
 			<img src="img/banner.jpg" alt="Banner Image"/>	
 		</header>
-		
-			
 		</div>
 
 
@@ -23,28 +21,32 @@
 
 			<div class="row">	<!-- Grid -->
 
-			  	<div class="col-md-3">
-
+			  	<div class="col-md-3" id="tool-one">
 			  		<img src="img/col1.jpg" alt="image1" class="img-border" title="hello"/>
 			  		<h2 class="img-title">Skincare</h2>
 			  		<h3 id="img-desc">Build your look on a perfect canvas</h3>
 			  	</div>
+
 			  	<div class="col-md-3">
 			  		<img src="img/col2.jpg" alt="image2" class="img-border"/>
 			  		<h2 class="img-title">Devices</h2>
 			  		<h3 class="img-desc">Build your look on a perfect canvas</h3>
 			  	</div>
+
 			  	<div class="col-md-3">
 			  		<img src="img/col3.jpg" alt="image3" class="img-border"/>
 			  		<h2 class="img-title">Giftsets</h2>
 			  		<h3 class="img-desc">Build your look on a perfect canvas</h3>
 			  	</div>
+
 			  	<div class="col-md-3">
 			  		<img src="img/col4.jpg" alt="image4" class="img-border"/>
 			  		<h2 class="img-title">Cosmetics</h2>
 			  		<h3 class="img-desc">Build your look on a perfect canvas</h3>
 			  	</div>
 			</div>
+
+			<!-- row two in 4x4 -->
 			<div class="row" id="row-padding">
 			  	<div class="col-md-3">
 			  		<img src="img/col1.jpg" alt="image1" class="img-border"/>
@@ -69,15 +71,30 @@
 			</div>
 
 			<!-- buttons -->
+			
+			
 			<div class="left-button">
-				<button type="button" class="button-design" data-toggle="modal" data-target="#myModal">Spend $125 get $200 + free gifts</button>
+				<button type="button" class="button-design" data-toggle="modal" data-target="#myModal">Spend $125 get $200 + free gifts <span style="color:#B8B8B8"> > </span></button>
 			</div>
 
 			<div class="right-button">
-				<button type="button" class="button-design" data-toggle="modal" data-target="#myModal">Shop all gift sets</button>
+				<button type="button" class="button-design" data-toggle="modal" data-target="#myModal">Shop all gift sets<span style="color:#B8B8B8"> > </span></button>
+			</div>
+		
+			<!-- ATTEMPT -->
+			<div class="form-group">    
+				<div class="col-md-6 col-md-offset-2">
+					<button type="submit" class="btn btn-default btn-md col-md-6">
+                            Button 1</button>
+
+					<button type="reset" class="btn btn-default btn-md col-md-6">
+                            Button 2</button>
+				</div>
 			</div>
 
-		</div>
+
+
+                  
 
 		<!-- Modal -->
 		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -110,8 +127,12 @@
 		</div>
 
 
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<!-- local scripts -->
+		<script src="js/script.js" type="text/javascript" charset="utf-8"></script>
 		<!-- bootstrap js -->
 		<script src="http://media.dermstore.com/images/style/bootstrap3/js/bootstrap.min.js"></script>
 	</body>

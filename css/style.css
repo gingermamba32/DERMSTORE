@@ -45,6 +45,7 @@ h1 {
   	color: #080000;
   	position: relative;
   	text-align: center;
+  	margin-top: 75px;
   	
   	
 }
@@ -67,14 +68,10 @@ h1:before {
   	left: 4%;
 }
 
-
-
-.col-md-3{
-	/*border-bottom-style: solid;
-	border-bottom-color: grey;
-	border-bottom-width: 2px;*/
+.row{
+	padding-bottom: 35px;
+	opacity: 0;
 }
-
 
 .img-border{
 	border-bottom-style: solid;
@@ -82,66 +79,50 @@ h1:before {
 	border-bottom-width: 1px;
 }
 
-.row{
-	padding-bottom: 35px;
-}
-
 
 .button-design {
-	-moz-box-shadow:inset 0px 1px 20px 0px #ffffff;
-	-webkit-box-shadow:inset 0px 1px 20px 0px #ffffff;
-	box-shadow:inset 0px 1px 20px 0px #ffffff;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
-	background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
-	background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
-	background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
-	background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
-	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
-	background-color:#ffffff;
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
+	background-color: #ffffff;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
 	border-radius: 3px;
 	border: 1px solid #909090;
 	display: inline-block;
-	cursor:pointer;
-	color:#080000;
-	font-family:'Open Sans';
+	cursor: pointer;
+	color: #080000;
+	font-family: 'Open Sans';
 	font-size: 18px;
 	padding: 6px 50px;
 	text-decoration: none;
 	text-shadow: 0px 1px 0px #ffffff;
 	width: 490px;
 }
-
-.myButton:hover {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
-	background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
-	background:-webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
-	background:-o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
-	background:-ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
-	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
-	background-color:#f6f6f6;
+.button-design:hover {
+  background-color: #808080;
 }
 
-.myButton:active {
-	position:relative;
-	top:1px;
+.btn-md{
+	color:#080000;
+	font-family:'Open Sans';
+	font-size: 18px;
+
+	margin-bottom: 50px;
+
 }
 
 .left-button{
 	float: left;
-	padding-left: 20px;
+	padding-left: 2%;
 	padding-bottom: 50px;
+	width: 45%;
 }
 .right-button{
 	float: right;
-	padding-right:20px;
+	padding-right:2%;
 	padding-bottom: 50px;
+	width: 45%;
 }
 
-
+/*Media Queries*/
 
 @media (max-width: 500px){
 	#banner-wrapper{
@@ -157,7 +138,7 @@ h1:before {
 	}*/
 }
 
-/*Media Queries*/
+
 
 
 
